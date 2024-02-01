@@ -22,7 +22,7 @@ export default {
 
 <template>
     <div class="container">
-        <h2>Progetti disponibili:</h2>
+        <h2>Progetti disponibili</h2>
         <div class="row">
             <div class="col" v-for="project in projects" :key="project.id">
                <AppCards :project="project"/>
